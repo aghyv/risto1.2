@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  margin-bottom: 10%;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: #fff;
+}
+h5{
+  font-weight: bold;
+  font-size: 4vw;
+}
+.navbar {
+  padding: 0 0 5rem;
+}
+
+.nav-item {
+  padding: 0 10px;
+  font-size: 1.1rem;
+  font-weight: lighter;
+}
+
+
+.navi_part {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+
+.header-img {
+  position: relative;
+  width: 100%;
+
+}
+
+.navbar-brand {
+  font-family: 'Mr Dafoe', cursive;
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-left: 5%;
+}
+
+.about-us {
+  margin-top: 8%;
+}
+
+.descript {
+
+  font-size: 3vw;
+  line-height: 1;
+  margin: 0 5% 10%;
+}
+
+.about-img {
+  position: relative;
+  padding-left: 10%;
+  width: 40%;
+  height: 40%;
+  z-index: -1;
+}
+
+.about-imgb {
+  position: absolute;
+  left: 38%;
+  padding-top: 5%;
+  margin-right: 5%;
+  padding-right: 2%;
+  width: 40%;
+  height: 70%;
+}
+
+#menu {
+  text-align: center;
+  background-color: #272727;
+  padding: 10% 0 15%;
+}
+
+.thumbnail-menu {
+  width: 500px;
+  height: 400px;
+  margin-top: 3%;
+}
+
+.thumbnail-wine {
+  width: 200px;
+  height: 400px;
+  margin-top: 3%;
+}
+
+.carousel-item {
+  padding: 0 10%;
+}
+
+.opening-hours {
+  margin-top: 3%;
+}
+.dish-img{
+  width: 100%;
+}
+#contacts {
+  padding: 3% 15% 0;
+  background-color: #fff;
+  color: #272727;
+  font-size: 15px;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 2% 2% 2%;
+  color:#272727;
+
+}
+.social-icon:hover{
+  color:#758184;
+}
+.card-descript{
+  padding-bottom: 2%;
+
+}
+#giftcard{
+  text-align: center;
+  padding: 7% 5% 7%;
+  line-height: 2.5;
+  background-color: #272727;
+  color:#fff;
+}
+.bronze{
+  background-color:#cd7f32;
+}
+.silver{
+  background-color: silver;
+}
+.gold{
+  background-color: gold;
+}
+.card-price{
+  font-size: 5vw;
+}
+
+@media (max-width:1028px) {
+
+
+  .about-us{
+    margin-top: 0;
+    padding-top: 30%;
+    background-color: #373737;
+    color:lightgrey;
+  }
+  .about-img {
+    position: static;
+    width: 265px;
+    height: 250px;
+    padding: 7% 5% 7%;
+  }
+
+  .about-imgb {
+    position: static;
+    width: 250px;
+    height: 350px;
+    padding: 20% 5% 7%;
+  }
+
+  .thumbnail-menu {
+    padding-left: 10%;
+    padding-right: 30%;
+  }
+  .opening-hours{
+    text-align: center;
+  }
+  .nav-item{
+
+    font-size: 0.8rem;
+
+  }
+  .card{
+    margin-bottom: 2%;
+  }
+}
+@media (max-width:400px) {
+  .header-img{
+    width:auto;
+    height: 500px;
+  }
+}
